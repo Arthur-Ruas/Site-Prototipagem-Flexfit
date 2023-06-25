@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+* {
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #616161;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 60%;
+  background-color: #0f0f0f;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+header {
+  color: #fff;
+  height: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: -20%;
+}
+header div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header div button {
+  border-radius: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  background-color: #2b2b2b;
+}
+header div div {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #f7dd04;
+  display: grid;
+  place-items: center;
+}
+header div div img {
+  rotate: 45deg;
+}
+
+.main {
+  height: 62%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.main .start {
+  border-radius: 20px;
+  background-color: #fff;
+  height: 100%;
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main .start h1 {
+  font-size: 60px;
+}
+.main .start div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.main .start div button {
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  background-color: #0f0f0f;
+  padding: 10px 50px;
+}
+.main .start div h4 {
+  font-size: 10px;
+}
+.main .train {
+  border-radius: 20px;
+  background-color: #e6b1a8;
+  color: #fff;
+  height: 100%;
+  width: 40%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.main .train div {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #0f0f0f;
+}
+
+.extra {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.extra .contact {
+  border-radius: 20px;
+  background-color: #e6b1a8;
+  height: 100%;
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+}
+.extra .contact .foto {
+  border-radius: 20px;
+  background-color: #f7dd04;
+  height: 100%;
+  width: 35%;
+  box-shadow: 30px 0 0 -10px #0f0f0f;
+}
+.extra .contact .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.extra .contact .info .suporte {
+  display: flex;
+  justify-content: space-between;
+}
+.extra .contact .info .suporte .local {
+  display: flex;
+  align-items: center;
+  text-align: end;
+  gap: 10px;
+}
+.extra .contact .info .suporte .local img {
+  background-color: #0f0f0f;
+  width: 25px;
+  border-radius: 50px;
+  padding: 5px;
+}
+.extra .note {
+  border-radius: 20px;
+  background-color: #fff;
+  height: 100%;
+  width: 40%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.extra .note .nota {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.extra .note .nota h2 {
+  font-size: 40px;
+}
+.extra .note .nota .estrelas {
+  display: flex;
+}
+.extra .note .servicos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.extra .note .servicos p {
+  font-size: 10px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */
